@@ -1,4 +1,4 @@
-XAMPP PHP VERSION SWITCHER #xamppPhpVersionSwitcher
+# XAMPP PHP VERSION SWITCHER
 
 Assumptions : XAMPP with php 5 already installed in C:\xampp and running fine
 
