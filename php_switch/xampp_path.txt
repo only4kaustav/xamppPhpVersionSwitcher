@@ -1,2 +1,2 @@
-Please specify full path of xampp directory below e.g. C:\xampp\
+##### Please specify full path of xampp directory below e.g. C:\xampp\ #####
 C:\xampp\
