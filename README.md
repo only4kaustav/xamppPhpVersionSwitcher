@@ -2,7 +2,7 @@
 
 Prerequisite : XAMPP with php 5 should already installed and running fine
 
-Goal : Implement multiple php version i.e. php5, php7.1 and php7.2 in a single xampp
+Goal : Implement multiple php version i.e. php5, php7.1 and php7.2 in a single xampp installation
 
 STEP 1 : STOP Apache and MySQL server of XAMPP if already running
 
@@ -20,4 +20,6 @@ STEP 7 : Execute same stapes from STEP 2 to STEP 6 for php 7.2 (in this case fol
 
 STEP 8 : Place this switcher folder anywhere in your machine
 
-STEP 9 : Double click on phpSwitcher.bat and input as required
+STEP 9 : Specify absolute path of installed "xampp" folder(e.g. c:\xampp\ , trailing slash should be there) in "php_switch\xampp_path.txt". You can find this file inside this tool. There should not be any other line in this txt file, after this folder path placement.
+
+STEP 10 : Double click on phpSwitcher.bat and input as required

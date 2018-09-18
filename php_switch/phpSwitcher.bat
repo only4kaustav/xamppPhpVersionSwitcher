@@ -6,14 +6,14 @@ IF NOT EXIST xampp_path.txt (
 )
 for /f "tokens=*" %%A in (xampp_path.txt) do (set xampp_path=%%A)
 IF "%xampp_path%" equ "" (
-  echo xampp directory path not provided in "xampp_path.txt"
+  echo xampp directory path not provided in las line of "xampp_path.txt"
   pause >nul
   exit
 ) ELSE (
   set "xampp_path=%xampp_path: =%"
 )
 IF NOT EXIST %xampp_path%apache_start.bat (
-  echo Please specify full path of xampp directory in "xampp_path.txt"
+  echo Please specify full path of xampp directory in "xampp_path.txt" with trailing slash[\]
   pause >nul
   exit
 )
@@ -26,6 +26,6 @@ IF EXIST %file_name% (
  %xampp_path%apache_start.bat
  exit
 )ELSE (
- echo Please choose 5 or 71 or 72... Good Bye...
+ echo Sorry!! This tool not supporting your povided php version. Please input 5 or 71 or 72 for php5, php7.1 and php7.2 respectively
  pause >nul
 )
