@@ -12,7 +12,7 @@ STEP 3 : Take php folder from extracted xampp downloaded in STEP 2 and place in 
 
 STEP 4 : Copy "xampp\apache\conf\extra\httpd-xampp.conf" from installed "xampp" directory and place the same file with "xampp\apache\conf\extra\httpd-xampp71.conf" (for version 7.1), So now both httpd-xampp.conf & httpd-xampp71.conf are in same location
 
-STEP 5 : Open "xampp\apache\conf\extra\httpd-xampp71.conf" and change all occurrence of "/xampp/php/" with "/xampp/php71/", "php5_module" with "php7_module", "php5apache2_4.dll" with "php7apache2_4.dll", "\\xampp\\php" with "\\xampp\\php71", "php5ts.dll" with "php7ts.dll"
+STEP 5 : Open "xampp\apache\conf\extra\httpd-xampp71.conf" and change all occurrence of "/xampp/php/" with "/xampp/php71/", "php5_module" with "php7_module", "php5apache2_4.dll" with "php7apache2_4.dll", "\\\\xampp\\\\php" with "\\\\xampp\\\\php71", "php5ts.dll" with "php7ts.dll"
 
 STEP 6 : Open "xampp\php71\php.ini" and change all occurrence of "\xampp\php\" with "\xampp\php71\"
 
